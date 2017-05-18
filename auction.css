@@ -1,0 +1,102 @@
+.btn:focus, .upload-btn:focus{
+  outline: 0 !important;
+}
+
+@font-face {
+  font-family: sackers_gothic_heavy;
+  src: url("http://localhost:8888/gavin/fonts/sackers_gothic_heavy.woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: matrix_script;
+  src: url("http://localhost:8888/gavin/fonts/matrix_script.woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html,
+body {
+  height: 100%;
+  background-image: url('http://localhost:8888/gavin/images/bg_tile.jpg');
+  font-family: sackers_gothic_heavy, sans-serif;
+}
+
+
+.upload-btn,
+.submit-images-btn {
+  color: #fff;
+  border: none;
+  padding: 20px;
+  font-size: 16px;
+  background-color: #000;
+  font-family: sackers_gothic_heavy, sans-serif;
+}
+
+.files-uploaded {
+    list-style-type: none;
+	padding: 10px 0;
+}
+
+.upload-btn:hover,
+.upload-btn:focus,
+.upload-btn:active,
+.upload-btn.active {
+  color: #fff;
+  border: none;
+}
+
+
+h2 {
+  margin-top: 15px;
+}
+
+.panel {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#upload-input {
+  display: none;
+}
+
+.auction-item {
+    font-family: matrix_script, sans-serif;
+}
+
+.auction-image {
+	width: 100%;
+}
+
+.section-container {
+	padding: 20px;
+	border-bottom: 1px solid #000;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.progress-bar {
+	background-color: #000;
+}
+
+.remove-file {
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+.file-name {
+	display: inline-block;
+}
+
+.auction-description {
+	height: 100px;
+	display: block;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+
+.auction-page img {
+  width: 100%;
+}
